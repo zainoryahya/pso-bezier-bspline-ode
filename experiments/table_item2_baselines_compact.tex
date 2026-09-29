@@ -1,0 +1,40 @@
+\begin{tabular}{lllccc}
+\toprule
+Problem & Method & Setting & Max error (1001 pts) & $F$ evaluations & CPU time\\
+\midrule
+Logistic growth & RK4 & N=40 & $1.97\times10^{-10}$ & 160 & 0.06 ms\\
+ & RK45 & rtol=1e-10 & $2.96\times10^{-10}$ & 86 & 0.67 ms\\
+ & Chebyshev spectral & N=16 & $5.55\times10^{-16}$ & 85 & 0.18 ms\\
+ & B-spline collocation + QM & 20 segments & $3.94\times10^{-9}$ & 210 & 0.60 ms\\
+ & PSO + B-spline (median of 30) & 10 seg., 50$\times$8000 & $1.86\times10^{-8}$ & $4.00\times10^{7}$ & 498.05 ms\\
+ & LM + B-spline (one start) & 10 seg. & $1.86\times10^{-8}$ & 1018 & 2.45 ms\\
+\addlinespace
+Logistic decline & RK4 & N=40 & $1.37\times10^{-7}$ & 160 & 0.08 ms\\
+ & RK45 & rtol=1e-10 & $1.34\times10^{-10}$ & 248 & 1.70 ms\\
+ & Chebyshev spectral & N=16 & $9.79\times10^{-11}$ & 85 & 0.24 ms\\
+ & B-spline collocation + QM & 20 segments & $1.26\times10^{-5}$ & 286 & 0.85 ms\\
+ & PSO + B-spline (median of 30) & 10 seg., 50$\times$8000 & $1.60\times10^{-5}$ & $4.00\times10^{7}$ & 487.04 ms\\
+ & LM + B-spline (one start) & 10 seg. & $1.60\times10^{-5}$ & 1178 & 2.85 ms\\
+\addlinespace
+Logistic, $r=5$ & RK4 & N=40 & $5.52\times10^{-6}$ & 160 & 0.16 ms\\
+ & RK45 & rtol=1e-10 & $4.38\times10^{-10}$ & 728 & 7.14 ms\\
+ & Chebyshev spectral & N=16 & $4.90\times10^{-5}$ & 238 & 0.45 ms\\
+ & B-spline collocation + QM & 20 segments & $7.77\times10^{-5}$ & 458 & 1.30 ms\\
+ & PSO + B-spline (median of 30) & 10 seg., 50$\times$8000 & $5.58\times10^{-1}$ & $4.00\times10^{7}$ & 482.29 ms\\
+ & LM + B-spline (one start) & 10 seg. & $4.31\times10^{-4}$ & 2076 & 4.99 ms\\
+\addlinespace
+Gompertz & RK4 & N=40 & $2.40\times10^{-7}$ & 160 & 0.20 ms\\
+ & RK45 & rtol=1e-10 & $3.66\times10^{-10}$ & 344 & 4.10 ms\\
+ & Chebyshev spectral & N=16 & $7.07\times10^{-10}$ & 119 & 0.38 ms\\
+ & B-spline collocation + QM & 20 segments & $7.02\times10^{-6}$ & 298 & 1.14 ms\\
+ & PSO + B-spline (median of 30) & 10 seg., 50$\times$8000 & $1.20\times10^{-5}$ & $4.00\times10^{7}$ & 554.80 ms\\
+ & LM + B-spline (one start) & 10 seg. & $1.20\times10^{-5}$ & 1354 & 3.45 ms\\
+\addlinespace
+Riccati & RK4 & N=40 & $7.78\times10^{-8}$ & 160 & 0.08 ms\\
+ & RK45 & rtol=1e-10 & $1.22\times10^{-9}$ & 290 & 2.06 ms\\
+ & Chebyshev spectral & N=16 & $3.19\times10^{-11}$ & 102 & 0.20 ms\\
+ & B-spline collocation + QM & 20 segments & $1.61\times10^{-6}$ & 264 & 0.58 ms\\
+ & PSO + B-spline (median of 30) & 10 seg., 50$\times$8000 & $3.55\times10^{-6}$ & $4.00\times10^{7}$ & 526.77 ms\\
+ & LM + B-spline (one start) & 10 seg. & $3.55\times10^{-6}$ & 1322 & 4.28 ms\\
+\bottomrule
+\end{tabular}

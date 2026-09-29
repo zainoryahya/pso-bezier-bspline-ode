@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "PSO with cubic Bézier and B-spline bases for nonlinear growth equations: code and data"
+authors:
+  - family-names: Yahya
+    given-names: Zainor Ridzuan
+    affiliation: "Universiti Malaysia Perlis"
+  - family-names: Mat Zin
+    given-names: Shazalina
+    affiliation: "Universiti Malaysia Perlis"
+version: "1.0.0"
+date-released: 2026-10-01
+license: MIT
+repository-code: "https://github.com/USERNAME/pso-bezier-bspline-ode"

@@ -1,0 +1,72 @@
+{
+ "bezier/growth": {
+  "D": 3,
+  "ssr_star": 5.50796776829077e-06,
+  "maxerr": 6.467827043976637e-05,
+  "lm_starts": 1000,
+  "lm_frac_at_opt": 1.0,
+  "lm_distinct_final": 1,
+  "max_dist_between_optimal_solutions": 1.580836349491437e-10,
+  "hess_eig_min": 61.56322424017962,
+  "hess_eig_max": 313.500766302938,
+  "hess_cond": 5.092338326528548,
+  "cpu": 1.601319668,
+  "grid_points": 1771561,
+  "grid_local_minima": 1,
+  "grid_min_ssr": 0.015233167886086484,
+  "grid_min_location": [
+   0.6000000000000001,
+   0.6666666666666667,
+   0.7333333333333334
+  ],
+  "grid_min_dist_to_opt": 0.01661369194773071
+ },
+ "bezier/decline": {
+  "D": 3,
+  "ssr_star": 0.12205737254775005,
+  "maxerr": 0.007617879205815692,
+  "lm_starts": 1000,
+  "lm_frac_at_opt": 1.0,
+  "lm_distinct_final": 1,
+  "max_dist_between_optimal_solutions": 2.130137250134564e-09,
+  "hess_eig_min": 105.40188146081486,
+  "hess_eig_max": 422.73071818318954,
+  "hess_cond": 4.0106562835915565,
+  "cpu": 1.5033154690000003,
+  "grid_points": 1771561,
+  "grid_local_minima": 1,
+  "grid_min_ssr": 0.15624876586906947,
+  "grid_min_location": [
+   1.4,
+   1.3333333333333335,
+   1.2333333333333334
+  ],
+  "grid_min_dist_to_opt": 0.021070899465047543
+ },
+ "bspline/growth": {
+  "D": 7,
+  "ssr_star": 9.62322362603251e-10,
+  "maxerr": 2.901130029542287e-07,
+  "lm_starts": 1000,
+  "lm_frac_at_opt": 1.0,
+  "lm_distinct_final": 1,
+  "max_dist_between_optimal_solutions": 5.173532236935853e-12,
+  "hess_eig_min": 37.238080894441914,
+  "hess_eig_max": 1987.580758406385,
+  "hess_cond": 53.37495141171595,
+  "cpu": 2.1541311000000007
+ },
+ "bspline/decline": {
+  "D": 7,
+  "ssr_star": 0.0001340448576033039,
+  "maxerr": 0.00020320972189247222,
+  "lm_starts": 1000,
+  "lm_frac_at_opt": 1.0,
+  "lm_distinct_final": 1,
+  "max_dist_between_optimal_solutions": 1.5659295982649789e-10,
+  "hess_eig_min": 108.88254058675116,
+  "hess_eig_max": 2086.4892518656197,
+  "hess_cond": 19.16275318909581,
+  "cpu": 2.2004344189999987
+ }
+}

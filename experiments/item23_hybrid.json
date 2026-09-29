@@ -1,0 +1,30 @@
+[
+ {
+  "problem": "logistic-stiff",
+  "n_seg": 5,
+  "pso": 13,
+  "hybrid": 13,
+  "hybrid_med_err": 0.8266822197602333
+ },
+ {
+  "problem": "logistic-stiff",
+  "n_seg": 10,
+  "pso": 13,
+  "hybrid": 30,
+  "hybrid_med_err": 0.00043148410935422987
+ },
+ {
+  "problem": "gompertz",
+  "n_seg": 5,
+  "pso": 16,
+  "hybrid": 17,
+  "hybrid_med_err": 0.00018401465958037266
+ },
+ {
+  "problem": "gompertz",
+  "n_seg": 10,
+  "pso": 27,
+  "hybrid": 28,
+  "hybrid_med_err": 1.2042156850342045e-05
+ }
+]

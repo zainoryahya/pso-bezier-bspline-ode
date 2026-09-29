@@ -1,0 +1,25 @@
+\begin{tabular}{llcccccc}
+\toprule
+Problem & Basis ($D$) & Basis optimum & PSO success & PSO median error & PSO worst error & LM random-start success & PSO+LM success\\
+\midrule
+Logistic growth ($r=1$) & B\'ezier (3) & $5.90\times10^{-5}$ & 30/30 & $5.90\times10^{-5}$ & $5.90\times10^{-5}$ & 100\% & --\\
+ & 5-seg.\ B-spline (7) & $2.98\times10^{-7}$ & 29/30 & $2.98\times10^{-7}$ & $5.73\times10^{0}$ & 100\% & --\\
+ & 10-seg.\ B-spline (12) & $1.86\times10^{-8}$ & 30/30 & $1.86\times10^{-8}$ & $1.86\times10^{-8}$ & 100\% & --\\
+\addlinespace
+Logistic decline ($r=1$) & B\'ezier (3) & $7.05\times10^{-3}$ & 30/30 & $7.05\times10^{-3}$ & $7.05\times10^{-3}$ & 100\% & --\\
+ & 5-seg.\ B-spline (7) & $1.61\times10^{-4}$ & 30/30 & $1.61\times10^{-4}$ & $1.61\times10^{-4}$ & 100\% & --\\
+ & 10-seg.\ B-spline (12) & $1.60\times10^{-5}$ & 29/30 & $1.60\times10^{-5}$ & $6.23\times10^{0}$ & 100\% & --\\
+\addlinespace
+Logistic, $r=5$ & B\'ezier (3) & $1.04\times10^{0}$ & 23/30 & $1.04\times10^{0}$ & $1.04\times10^{0}$ & 20\% & --\\
+ & 5-seg.\ B-spline (7) & $1.29\times10^{-2}$ & 13/30 & $8.27\times10^{-1}$ & $9.86\times10^{-1}$ & 80\% & 13/30\\
+ & 10-seg.\ B-spline (12) & $4.31\times10^{-4}$ & 13/30 & $5.58\times10^{-1}$ & $1.05\times10^{0}$ & 100\% & 30/30\\
+\addlinespace
+Gompertz & B\'ezier (3) & $1.64\times10^{-2}$ & 30/30 & $1.64\times10^{-2}$ & $1.64\times10^{-2}$ & 82\% & --\\
+ & 5-seg.\ B-spline (7) & $1.84\times10^{-4}$ & 16/30 & $1.84\times10^{-4}$ & $1.27\times10^{0}$ & 90\% & 17/30\\
+ & 10-seg.\ B-spline (12) & $1.20\times10^{-5}$ & 27/30 & $1.20\times10^{-5}$ & $1.35\times10^{0}$ & 98\% & 28/30\\
+\addlinespace
+Riccati & B\'ezier (3) & $8.97\times10^{-3}$ & 30/30 & $8.97\times10^{-3}$ & $8.97\times10^{-3}$ & 100\% & --\\
+ & 5-seg.\ B-spline (7) & $6.61\times10^{-5}$ & 29/30 & $6.61\times10^{-5}$ & $6.69\times10^{0}$ & 100\% & --\\
+ & 10-seg.\ B-spline (12) & $3.55\times10^{-6}$ & 29/30 & $3.55\times10^{-6}$ & $2.86\times10^{-3}$ & 100\% & --\\
+\bottomrule
+\end{tabular}
